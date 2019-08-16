@@ -1,0 +1,43 @@
+{
+    "name": "stratum-pool",
+    "version": "0.1.9",
+    "description": "High performance Stratum poolserver in Node.js",
+    "keywords": [
+        "stratum",
+        "mining",
+        "pool",
+        "server",
+        "poolserver",
+        "bitcoin",
+        "litecoin",
+        "scrypt"
+    ],
+    "homepage": "https://github.com/mrzeta/node-stratum-pool",
+    "bugs": {
+        "url": "https://github.com/mrzeta/node-stratum-pool/issues"
+    },
+    "license": "GPL-2.0",
+    "author": "mrzeta",
+    "contributors": [
+        "mrzeta",
+        "Romano",
+        "vekexasia",
+        "TheSeven"
+    ],
+    "main": "lib/index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mrzeta/node-stratum-pool.git"
+    },
+    "dependencies": {
+        "async": "1.5.2",
+        "base58-native": "*",
+        "bignum": "^0.13.0",
+        "coffee": "^5.2.2",
+        "egg-bin": "^4.13.1",
+        "multi-hashing": "git://github.com/ad189/node-multi-hashing-Native.git"
+    },
+    "engines": {
+        "node": ">=0.10"
+    }
+}
